@@ -1,0 +1,16 @@
+{
+  "name": "handoff",
+  "version": "0.1.0",
+  "description": "/handoff writes a handoff note so a fresh Claude session can continue the work.",
+  "author": {
+    "name": "AliakbarNateghi"
+  },
+  "userConfig": {
+    "dir": {
+      "type": "string",
+      "title": "Handoff folder",
+      "description": "Folder for handoff notes, relative to the git root.",
+      "default": ".claude/handoffs"
+    }
+  }
+}

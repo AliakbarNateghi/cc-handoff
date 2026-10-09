@@ -1,0 +1,13 @@
+{
+  "name": "cc-handoff",
+  "description": "The handoff mod for Claude Code.",
+  "owner": {
+    "name": "AliakbarNateghi"
+  },
+  "plugins": [
+    {
+      "name": "handoff",
+      "source": "./"
+    }
+  ]
+}
